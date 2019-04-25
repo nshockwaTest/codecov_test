@@ -20,7 +20,7 @@ class Awesomeness {
     x-y
   }
   def add1(x:Int): Int ={
-    x+=1
+    x+1
   }
 
 }
