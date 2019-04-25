@@ -10,6 +10,9 @@ class Awesomeness {
   def multiple(x:Int,y:Int): Int= {
     x*y
   }
+  def divide(x:Int, y:Int): Int = {
+    x/y
+  }
 }
 
 
