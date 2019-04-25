@@ -19,6 +19,9 @@ class Awesomeness {
   def subtract(x:Int, y:Int): Int = {
     x-y
   }
+  def add1(x:Int): Int ={
+    x+1
+  }
 
 }
 
