@@ -10,9 +10,8 @@ libraryDependencies ++= Seq(
   "junit"          % "junit"           % "4.5",
   "org.scalatest"  %% "scalatest"      % "3.0.1",
   "org.pegdown"    %  "pegdown"     % "1.6.0"  % "test"
-
+  )
 testOptions in Test ++= Seq(
   Tests.Argument(TestFrameworks.ScalaTest, "-u", "target/test-reports"),
   Tests.Argument(TestFrameworks.ScalaTest, "-h", "target/test-reports")
   )
-)
