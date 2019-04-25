@@ -13,6 +13,9 @@ class Awesomeness {
   def divide(x:Int, y:Int): Int = {
     x/y
   }
+  def add(x:Int, y:Int): Int = {
+    x+y
+  }
 }
 
 
